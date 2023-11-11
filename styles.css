@@ -8,28 +8,36 @@
     overflow: hidden;
   
 }
+/* .calculator styles */
 .calculator{
     height: 300px;
     width: 200px;
     color: aliceblue;
     border: 1px solid rgb(195, 195, 147);
     }
+
+    /* input field styles */
     .calculator .input-field{
         background: transparent;
         border: none;
         margin-left: 6px;
     }
+
+    /* result field styles */
     .calculator .input-field:nth-child(2){
         margin-top: 5px;
         background: transparent;
         border-bottom: 1px solid #ffffff6e;
     }
+
+    /* calculator buttons styles */
     .cal-buttons{
         overflow: hidden;
         border-radius: 20px;
         text-align: center;
         cursor: pointer;
     }
+    /* hover psuedoclass selector on buttons */
     .cal-buttons:hover{
         background-color: rgb(195, 195, 147);
         
